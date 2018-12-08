@@ -8,7 +8,7 @@ contract Election{
   uint voteCount;
 }
   //store candidate
-  mapping(uint=> Candidate) public candidates;
+mapping(uint=> Candidate) public candidates;
   //fetch candidate
 // store candidates count
 uint public candidatesCount;
